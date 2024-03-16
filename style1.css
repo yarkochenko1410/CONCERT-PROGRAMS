@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+.content {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #191919;
+    padding: 41px 0;
+    margin-bottom: 60px;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.intro-content {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 180px;
+}
+
+.slider-main-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.intro-links {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-links-item {
+    background-color: rgba(25, 25, 25, 0.05);
+    width: 416px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+.intro-links-item p {
+    color:#191919;
+    font-weight: 600;
+}
+
+.event-posters {
+    font-family: "Cormorant Garamond";
+}
+
+.heading-section {
+    justify-content: space-between;
+    display: flex;
+    font-size: 48px;
+}
+
+.heading-section p{
+    color: black;
+    margin-bottom: 100px;
+}
+
+.heading-section__right {
+    display: flex;
+    gap: 32px;
+    font-size: 24px;
+}
+
+.event-posters-footer {
+    font-family: "Cormorant Garamond";
+}
+
+.poster{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgba(25, 25, 25, 0.05);
+    padding: 32px 60px;
+}
+
+.poster__date{
+
+}
+.poster__date p{
+    color: #191919;
+}
+
+
